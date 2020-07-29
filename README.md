@@ -1,3 +1,8 @@
+React Infinite Calendar
+
+![alt-text](https://github.com/ashmeetsehgal/infinite-calendar/blob/master/project.gif)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
