@@ -1,0 +1,25 @@
+.reminder-wrapper {
+  padding: 50px;
+
+  form {
+    margin: 50px 0;
+
+    .time {
+      display: flex;
+    }
+    .error-wrapper {
+      height: 14px;
+      &__label {
+        color: red;
+        font-size: 14px
+      }
+    }
+
+    .field {
+      width: 200px;
+      display: flex;
+      margin: 12px 8px;
+      justify-content: space-between;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.day {
+  position: relative;
+  flex: 0 0 12.55%;
+  max-width: calc(100% / 7);
+  min-height: 130px;
+  padding: 10px;
+  box-shadow: inset 0 0 1px #000;
+
+  .btn-new-reminder {
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
+    opacity: 0;
+    transition: opacity 500ms;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.day:hover .btn-new-reminder {
+  opacity: 1;
+}
+
+.day.first-index-1 {
+  margin-left: 14.28%;
+}
+
+.day.first-index-2 {
+  margin-left: 28.56%;
+}
+
+.day.first-index-3 {
+  margin-left: 42.84%;
+}
+
+.day.first-index-4 {
+  margin-left: 57.12%;
+}
+
+.day.first-index-5 {
+  margin-left: 71.4%;
+}
+
+.day.first-index-6 {
+  margin-left: 85.68%;
+}
+
+.day.first-index-7 {
+  margin-left: 99.96%;
+}
+
+.day header {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.reminder-modal {
+  width: 50%;
+}
+
+.memo {
+  position: absolute;
+  bottom: 28px;
+  height: 60px;
+  width: 104px;
+  border: 1px solid black;
+  padding: 4px;
+  box-sizing: border-box;
+
+  span {
+    font-size: 14px;
+  }
+}
